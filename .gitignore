@@ -1,0 +1,23 @@
+# Private research, third-party datasets and account-specific migration scripts
+/research/
+/research_hk/*.json
+/tools/seed-research.cjs
+/tools/decision-review.cjs
+/tools/publish-action-research.cjs
+/.private/
+/.codex/
+/.agents/
+.env*
+!.env.example
+.clasp*.json
+.clasprc*
+credentials*.json
+client_secret*.json
+*.pem
+*.key
+
+# Build results, local reports and evidence of production runs
+/output/
+/dist/
+node_modules/
+*.log

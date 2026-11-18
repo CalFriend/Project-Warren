@@ -1,0 +1,13 @@
+{
+  "name": "project-warren",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Hong Kong equity research, morning briefs, valuation alerts and nightly asset cash-flow verification",
+  "scripts": {
+    "demo": "node tools/demo.cjs",
+    "demo:morning": "node tools/demo-morning.cjs",
+    "test": "node --test",
+    "build": "node tools/build.cjs"
+  },
+  "engines": { "node": ">=22" }
+}
